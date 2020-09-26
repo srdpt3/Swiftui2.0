@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "hermes-cinhetic-백--077716CK1Q-front-1-300-0-850-850_b.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

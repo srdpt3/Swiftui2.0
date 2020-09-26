@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "h-strie-벨트-버클-리버서블-가죽-스트랩-32mm--beltkit-32-075394CAAU_composite_2-064550CC06_front_1-300-0-850-850_b.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
