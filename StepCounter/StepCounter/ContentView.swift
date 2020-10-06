@@ -94,7 +94,7 @@ struct ProgressGoalView: View {
                 .shadow(color: ColorConstants.bottomColor2, radius: 30)
             
             VStack(spacing: 12) {
-                Text("목표: \(getFormeattedInt(number: manager.stepData.goal))")
+                Text("목표 걸음수: \(getFormeattedInt(number: manager.stepData.goal))")
                     .font(.system(size: 18))
                 Text("\(getFormeattedInt(number: manager.stepData.count))")
                     .font(.system(size: 56))
