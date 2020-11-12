@@ -25,6 +25,19 @@ struct ContentView: View {
             }
             
         }.navigationBarTitle("Africa - by Dustin", displayMode: .large)
+        .toolbar{
+            ToolbarItem(placement: .navigationBarTrailing){
+                HStack(spacing: 16){
+                    Button(action: {
+                        
+                    }, label: {
+                        Image(systemName: "square.fill.text.grid.1x2")
+                            .font(.title2)
+                            .foregroundColor(.accentColor)
+                    })
+                }
+            }
+        }
     }
   }
 }
