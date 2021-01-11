@@ -1,0 +1,633 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11B864BE25ABBDD800BD615E /* Animated_Sticky_Header_With_Scrollable_TabsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864BD25ABBDD800BD615E /* Animated_Sticky_Header_With_Scrollable_TabsApp.swift */; };
+		11B864C025ABBDD800BD615E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864BF25ABBDD800BD615E /* ContentView.swift */; };
+		11B864C225ABBDDB00BD615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B864C125ABBDDB00BD615E /* Assets.xcassets */; };
+		11B864C525ABBDDB00BD615E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B864C425ABBDDB00BD615E /* Preview Assets.xcassets */; };
+		11B864D025ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864CF25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsTests.swift */; };
+		11B864DB25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864DA25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsUITests.swift */; };
+		11B864EE25ABBE3C00BD615E /* Food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864ED25ABBE3C00BD615E /* Food.swift */; };
+		11B864F625ABBE9E00BD615E /* Tab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864F525ABBE9E00BD615E /* Tab.swift */; };
+		11B864FB25ABBEC500BD615E /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B864FA25ABBEC500BD615E /* HomeViewModel.swift */; };
+		11B8650125ABC00F00BD615E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8650025ABC00F00BD615E /* Home.swift */; };
+		11B8650925ABC0B600BD615E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8650825ABC0B600BD615E /* CardView.swift */; };
+		11B8650E25ABC79500BD615E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8650D25ABC79500BD615E /* HeaderView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B864CC25ABBDDB00BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B864B225ABBDD800BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B864B925ABBDD800BD615E;
+			remoteInfo = "Animated Sticky Header With Scrollable Tabs";
+		};
+		11B864D725ABBDDB00BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B864B225ABBDD800BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B864B925ABBDD800BD615E;
+			remoteInfo = "Animated Sticky Header With Scrollable Tabs";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		11B864BA25ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animated Sticky Header With Scrollable Tabs.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B864BD25ABBDD800BD615E /* Animated_Sticky_Header_With_Scrollable_TabsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Sticky_Header_With_Scrollable_TabsApp.swift; sourceTree = "<group>"; };
+		11B864BF25ABBDD800BD615E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11B864C125ABBDDB00BD615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B864C425ABBDDB00BD615E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11B864C625ABBDDB00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B864CB25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Sticky Header With Scrollable TabsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B864CF25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Sticky_Header_With_Scrollable_TabsTests.swift; sourceTree = "<group>"; };
+		11B864D125ABBDDB00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B864D625ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animated Sticky Header With Scrollable TabsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B864DA25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animated_Sticky_Header_With_Scrollable_TabsUITests.swift; sourceTree = "<group>"; };
+		11B864DC25ABBDDB00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B864ED25ABBE3C00BD615E /* Food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Food.swift; sourceTree = "<group>"; };
+		11B864F525ABBE9E00BD615E /* Tab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tab.swift; sourceTree = "<group>"; };
+		11B864FA25ABBEC500BD615E /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		11B8650025ABC00F00BD615E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		11B8650825ABC0B600BD615E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		11B8650D25ABC79500BD615E /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B864B725ABBDD800BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864C825ABBDDB00BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864D325ABBDDB00BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B864B125ABBDD800BD615E = {
+			isa = PBXGroup;
+			children = (
+				11B864BC25ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */,
+				11B864CE25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests */,
+				11B864D925ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests */,
+				11B864BB25ABBDD800BD615E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B864BB25ABBDD800BD615E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B864BA25ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs.app */,
+				11B864CB25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests.xctest */,
+				11B864D625ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B864BC25ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */ = {
+			isa = PBXGroup;
+			children = (
+				11B864FF25ABC00500BD615E /* View */,
+				11B864EC25ABBE2C00BD615E /* Model */,
+				11B864EB25ABBE2300BD615E /* ViewModel */,
+				11B864BD25ABBDD800BD615E /* Animated_Sticky_Header_With_Scrollable_TabsApp.swift */,
+				11B864BF25ABBDD800BD615E /* ContentView.swift */,
+				11B864C125ABBDDB00BD615E /* Assets.xcassets */,
+				11B864C625ABBDDB00BD615E /* Info.plist */,
+				11B864C325ABBDDB00BD615E /* Preview Content */,
+			);
+			path = "Animated Sticky Header With Scrollable Tabs";
+			sourceTree = "<group>";
+		};
+		11B864C325ABBDDB00BD615E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11B864C425ABBDDB00BD615E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11B864CE25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B864CF25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsTests.swift */,
+				11B864D125ABBDDB00BD615E /* Info.plist */,
+			);
+			path = "Animated Sticky Header With Scrollable TabsTests";
+			sourceTree = "<group>";
+		};
+		11B864D925ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B864DA25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsUITests.swift */,
+				11B864DC25ABBDDB00BD615E /* Info.plist */,
+			);
+			path = "Animated Sticky Header With Scrollable TabsUITests";
+			sourceTree = "<group>";
+		};
+		11B864EB25ABBE2300BD615E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11B864FA25ABBEC500BD615E /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11B864EC25ABBE2C00BD615E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11B864ED25ABBE3C00BD615E /* Food.swift */,
+				11B864F525ABBE9E00BD615E /* Tab.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B864FF25ABC00500BD615E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B8650025ABC00F00BD615E /* Home.swift */,
+				11B8650825ABC0B600BD615E /* CardView.swift */,
+				11B8650D25ABC79500BD615E /* HeaderView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B864B925ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B864DF25ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable Tabs" */;
+			buildPhases = (
+				11B864B625ABBDD800BD615E /* Sources */,
+				11B864B725ABBDD800BD615E /* Frameworks */,
+				11B864B825ABBDD800BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Animated Sticky Header With Scrollable Tabs";
+			productName = "Animated Sticky Header With Scrollable Tabs";
+			productReference = 11B864BA25ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B864CA25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B864E225ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable TabsTests" */;
+			buildPhases = (
+				11B864C725ABBDDB00BD615E /* Sources */,
+				11B864C825ABBDDB00BD615E /* Frameworks */,
+				11B864C925ABBDDB00BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B864CD25ABBDDB00BD615E /* PBXTargetDependency */,
+			);
+			name = "Animated Sticky Header With Scrollable TabsTests";
+			productName = "Animated Sticky Header With Scrollable TabsTests";
+			productReference = 11B864CB25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B864D525ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B864E525ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable TabsUITests" */;
+			buildPhases = (
+				11B864D225ABBDDB00BD615E /* Sources */,
+				11B864D325ABBDDB00BD615E /* Frameworks */,
+				11B864D425ABBDDB00BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B864D825ABBDDB00BD615E /* PBXTargetDependency */,
+			);
+			name = "Animated Sticky Header With Scrollable TabsUITests";
+			productName = "Animated Sticky Header With Scrollable TabsUITests";
+			productReference = 11B864D625ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B864B225ABBDD800BD615E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					11B864B925ABBDD800BD615E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					11B864CA25ABBDDB00BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B864B925ABBDD800BD615E;
+					};
+					11B864D525ABBDDB00BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B864B925ABBDD800BD615E;
+					};
+				};
+			};
+			buildConfigurationList = 11B864B525ABBDD800BD615E /* Build configuration list for PBXProject "Animated Sticky Header With Scrollable Tabs" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B864B125ABBDD800BD615E;
+			productRefGroup = 11B864BB25ABBDD800BD615E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B864B925ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */,
+				11B864CA25ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsTests */,
+				11B864D525ABBDDB00BD615E /* Animated Sticky Header With Scrollable TabsUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B864B825ABBDD800BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B864C525ABBDDB00BD615E /* Preview Assets.xcassets in Resources */,
+				11B864C225ABBDDB00BD615E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864C925ABBDDB00BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864D425ABBDDB00BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B864B625ABBDD800BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B8650925ABC0B600BD615E /* CardView.swift in Sources */,
+				11B864C025ABBDD800BD615E /* ContentView.swift in Sources */,
+				11B864BE25ABBDD800BD615E /* Animated_Sticky_Header_With_Scrollable_TabsApp.swift in Sources */,
+				11B864EE25ABBE3C00BD615E /* Food.swift in Sources */,
+				11B864FB25ABBEC500BD615E /* HomeViewModel.swift in Sources */,
+				11B8650125ABC00F00BD615E /* Home.swift in Sources */,
+				11B864F625ABBE9E00BD615E /* Tab.swift in Sources */,
+				11B8650E25ABC79500BD615E /* HeaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864C725ABBDDB00BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B864D025ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B864D225ABBDDB00BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B864DB25ABBDDB00BD615E /* Animated_Sticky_Header_With_Scrollable_TabsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B864CD25ABBDDB00BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B864B925ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */;
+			targetProxy = 11B864CC25ABBDDB00BD615E /* PBXContainerItemProxy */;
+		};
+		11B864D825ABBDDB00BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B864B925ABBDD800BD615E /* Animated Sticky Header With Scrollable Tabs */;
+			targetProxy = 11B864D725ABBDDB00BD615E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B864DD25ABBDDB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B864DE25ABBDDB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B864E025ABBDDB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Animated Sticky Header With Scrollable Tabs/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable Tabs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-Tabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B864E125ABBDDB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Animated Sticky Header With Scrollable Tabs/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable Tabs/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-Tabs";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B864E325ABBDDB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable TabsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-TabsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Sticky Header With Scrollable Tabs.app/Animated Sticky Header With Scrollable Tabs";
+			};
+			name = Debug;
+		};
+		11B864E425ABBDDB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable TabsTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-TabsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Animated Sticky Header With Scrollable Tabs.app/Animated Sticky Header With Scrollable Tabs";
+			};
+			name = Release;
+		};
+		11B864E625ABBDDB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable TabsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-TabsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animated Sticky Header With Scrollable Tabs";
+			};
+			name = Debug;
+		};
+		11B864E725ABBDDB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "Animated Sticky Header With Scrollable TabsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.Animated-Sticky-Header-With-Scrollable-TabsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Animated Sticky Header With Scrollable Tabs";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B864B525ABBDD800BD615E /* Build configuration list for PBXProject "Animated Sticky Header With Scrollable Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B864DD25ABBDDB00BD615E /* Debug */,
+				11B864DE25ABBDDB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B864DF25ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable Tabs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B864E025ABBDDB00BD615E /* Debug */,
+				11B864E125ABBDDB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B864E225ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable TabsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B864E325ABBDDB00BD615E /* Debug */,
+				11B864E425ABBDDB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B864E525ABBDDB00BD615E /* Build configuration list for PBXNativeTarget "Animated Sticky Header With Scrollable TabsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B864E625ABBDDB00BD615E /* Debug */,
+				11B864E725ABBDDB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B864B225ABBDD800BD615E /* Project object */;
+}
