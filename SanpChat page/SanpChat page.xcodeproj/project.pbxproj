@@ -1,0 +1,731 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1174659425B7C57400BC19B0 /* video13.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174658E25B7C56A00BC19B0 /* video13.mp4 */; };
+		1174659525B7C57400BC19B0 /* video11.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174658F25B7C56D00BC19B0 /* video11.mp4 */; };
+		1174659625B7C57400BC19B0 /* video12.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174659025B7C56F00BC19B0 /* video12.mp4 */; };
+		1174659725B7C57400BC19B0 /* video10.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174659125B7C57100BC19B0 /* video10.mp4 */; };
+		1174659825B7C57400BC19B0 /* video14.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174659225B7C57200BC19B0 /* video14.mp4 */; };
+		1174659925B7C57400BC19B0 /* video15.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 1174659325B7C57400BC19B0 /* video15.mp4 */; };
+		11B8651F25B377E700BD615E /* SanpChat_pageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8651E25B377E700BD615E /* SanpChat_pageApp.swift */; };
+		11B8652125B377E700BD615E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8652025B377E700BD615E /* ContentView.swift */; };
+		11B8652325B377EA00BD615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B8652225B377EA00BD615E /* Assets.xcassets */; };
+		11B8652625B377EA00BD615E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B8652525B377EA00BD615E /* Preview Assets.xcassets */; };
+		11B8653125B377EB00BD615E /* SanpChat_pageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8653025B377EB00BD615E /* SanpChat_pageTests.swift */; };
+		11B8653C25B377EB00BD615E /* SanpChat_pageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8653B25B377EB00BD615E /* SanpChat_pageUITests.swift */; };
+		11B8655625B37B2400BD615E /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8655025B37B1D00BD615E /* video1.mp4 */; };
+		11B8655725B37B2400BD615E /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8655125B37B1E00BD615E /* video3.mp4 */; };
+		11B8655825B37B2400BD615E /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8655225B37B2200BD615E /* video5.mp4 */; };
+		11B8655925B37B2400BD615E /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8655325B37B2300BD615E /* video2.mp4 */; };
+		11B8655B25B37B2400BD615E /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8655525B37B2400BD615E /* video4.mp4 */; };
+		11B8656A25B37D4D00BD615E /* VideoPlayerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8656925B37D4D00BD615E /* VideoPlayerViewModel.swift */; };
+		11B8656F25B37D6500BD615E /* Video.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8656E25B37D6500BD615E /* Video.swift */; };
+		11B8657425B37D7F00BD615E /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8657325B37D7F00BD615E /* VideoPlayerView.swift */; };
+		11B8657925B37D9300BD615E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B8657825B37D9300BD615E /* Home.swift */; };
+		11B8657E25B37F0B00BD615E /* video9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8657D25B37F0B00BD615E /* video9.mp4 */; };
+		11B8658F25B37F4000BD615E /* video6.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658625B37F4000BD615E /* video6.mp4 */; };
+		11B8659025B37F4000BD615E /* video7.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658725B37F4000BD615E /* video7.mp4 */; };
+		11B8659125B37F4000BD615E /* video5.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658825B37F4000BD615E /* video5.mp4 */; };
+		11B8659225B37F4000BD615E /* video4.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658925B37F4000BD615E /* video4.mp4 */; };
+		11B8659325B37F4000BD615E /* video1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658A25B37F4000BD615E /* video1.mp4 */; };
+		11B8659425B37F4000BD615E /* video3.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658B25B37F4000BD615E /* video3.mp4 */; };
+		11B8659525B37F4000BD615E /* video2.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658C25B37F4000BD615E /* video2.mp4 */; };
+		11B8659625B37F4000BD615E /* video9.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658D25B37F4000BD615E /* video9.mp4 */; };
+		11B8659725B37F4000BD615E /* video8.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 11B8658E25B37F4000BD615E /* video8.mp4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B8652D25B377EB00BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B8651325B377E700BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B8651A25B377E700BD615E;
+			remoteInfo = "SanpChat page";
+		};
+		11B8653825B377EB00BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B8651325B377E700BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B8651A25B377E700BD615E;
+			remoteInfo = "SanpChat page";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1174658E25B7C56A00BC19B0 /* video13.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video13.mp4; sourceTree = "<group>"; };
+		1174658F25B7C56D00BC19B0 /* video11.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video11.mp4; sourceTree = "<group>"; };
+		1174659025B7C56F00BC19B0 /* video12.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video12.mp4; sourceTree = "<group>"; };
+		1174659125B7C57100BC19B0 /* video10.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video10.mp4; sourceTree = "<group>"; };
+		1174659225B7C57200BC19B0 /* video14.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video14.mp4; sourceTree = "<group>"; };
+		1174659325B7C57400BC19B0 /* video15.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video15.mp4; sourceTree = "<group>"; };
+		11B8651B25B377E700BD615E /* SanpChat page.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SanpChat page.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B8651E25B377E700BD615E /* SanpChat_pageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanpChat_pageApp.swift; sourceTree = "<group>"; };
+		11B8652025B377E700BD615E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11B8652225B377EA00BD615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B8652525B377EA00BD615E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11B8652725B377EA00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B8652C25B377EB00BD615E /* SanpChat pageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SanpChat pageTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B8653025B377EB00BD615E /* SanpChat_pageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanpChat_pageTests.swift; sourceTree = "<group>"; };
+		11B8653225B377EB00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B8653725B377EB00BD615E /* SanpChat pageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SanpChat pageUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B8653B25B377EB00BD615E /* SanpChat_pageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SanpChat_pageUITests.swift; sourceTree = "<group>"; };
+		11B8653D25B377EB00BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B8655025B37B1D00BD615E /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		11B8655125B37B1E00BD615E /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		11B8655225B37B2200BD615E /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		11B8655325B37B2300BD615E /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		11B8655525B37B2400BD615E /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		11B8655F25B37C1B00BD615E /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		11B8656025B37C1C00BD615E /* video7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video7.mp4; sourceTree = "<group>"; };
+		11B8656125B37C1E00BD615E /* video8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video8.mp4; sourceTree = "<group>"; };
+		11B8656925B37D4D00BD615E /* VideoPlayerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewModel.swift; sourceTree = "<group>"; };
+		11B8656E25B37D6500BD615E /* Video.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Video.swift; sourceTree = "<group>"; };
+		11B8657325B37D7F00BD615E /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		11B8657825B37D9300BD615E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		11B8657D25B37F0B00BD615E /* video9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video9.mp4; sourceTree = "<group>"; };
+		11B8658625B37F4000BD615E /* video6.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video6.mp4; sourceTree = "<group>"; };
+		11B8658725B37F4000BD615E /* video7.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video7.mp4; sourceTree = "<group>"; };
+		11B8658825B37F4000BD615E /* video5.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video5.mp4; sourceTree = "<group>"; };
+		11B8658925B37F4000BD615E /* video4.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video4.mp4; sourceTree = "<group>"; };
+		11B8658A25B37F4000BD615E /* video1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video1.mp4; sourceTree = "<group>"; };
+		11B8658B25B37F4000BD615E /* video3.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video3.mp4; sourceTree = "<group>"; };
+		11B8658C25B37F4000BD615E /* video2.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video2.mp4; sourceTree = "<group>"; };
+		11B8658D25B37F4000BD615E /* video9.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video9.mp4; sourceTree = "<group>"; };
+		11B8658E25B37F4000BD615E /* video8.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = video8.mp4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B8651825B377E700BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8652925B377EB00BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8653425B377EB00BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11B8651225B377E700BD615E = {
+			isa = PBXGroup;
+			children = (
+				11B8651D25B377E700BD615E /* SanpChat page */,
+				11B8652F25B377EB00BD615E /* SanpChat pageTests */,
+				11B8653A25B377EB00BD615E /* SanpChat pageUITests */,
+				11B8651C25B377E700BD615E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		11B8651C25B377E700BD615E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B8651B25B377E700BD615E /* SanpChat page.app */,
+				11B8652C25B377EB00BD615E /* SanpChat pageTests.xctest */,
+				11B8653725B377EB00BD615E /* SanpChat pageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B8651D25B377E700BD615E /* SanpChat page */ = {
+			isa = PBXGroup;
+			children = (
+				11B8656825B37C9300BD615E /* View */,
+				11B8656725B37C8C00BD615E /* Model */,
+				11B8656625B37C8600BD615E /* ViewModel */,
+				11B8656525B37C6900BD615E /* Videos */,
+				11B8651E25B377E700BD615E /* SanpChat_pageApp.swift */,
+				11B8652025B377E700BD615E /* ContentView.swift */,
+				11B8652225B377EA00BD615E /* Assets.xcassets */,
+				11B8652725B377EA00BD615E /* Info.plist */,
+				11B8652425B377EA00BD615E /* Preview Content */,
+			);
+			path = "SanpChat page";
+			sourceTree = "<group>";
+		};
+		11B8652425B377EA00BD615E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11B8652525B377EA00BD615E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11B8652F25B377EB00BD615E /* SanpChat pageTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B8653025B377EB00BD615E /* SanpChat_pageTests.swift */,
+				11B8653225B377EB00BD615E /* Info.plist */,
+			);
+			path = "SanpChat pageTests";
+			sourceTree = "<group>";
+		};
+		11B8653A25B377EB00BD615E /* SanpChat pageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B8653B25B377EB00BD615E /* SanpChat_pageUITests.swift */,
+				11B8653D25B377EB00BD615E /* Info.plist */,
+			);
+			path = "SanpChat pageUITests";
+			sourceTree = "<group>";
+		};
+		11B8656525B37C6900BD615E /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				11B8657D25B37F0B00BD615E /* video9.mp4 */,
+				11B8655F25B37C1B00BD615E /* video6.mp4 */,
+				11B8658525B37F4000BD615E /* Videos */,
+				11B8656025B37C1C00BD615E /* video7.mp4 */,
+				11B8656125B37C1E00BD615E /* video8.mp4 */,
+				11B8655025B37B1D00BD615E /* video1.mp4 */,
+				11B8655325B37B2300BD615E /* video2.mp4 */,
+				11B8655125B37B1E00BD615E /* video3.mp4 */,
+				11B8655525B37B2400BD615E /* video4.mp4 */,
+				11B8655225B37B2200BD615E /* video5.mp4 */,
+			);
+			path = Videos;
+			sourceTree = "<group>";
+		};
+		11B8656625B37C8600BD615E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				11B8656925B37D4D00BD615E /* VideoPlayerViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		11B8656725B37C8C00BD615E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11B8656E25B37D6500BD615E /* Video.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B8656825B37C9300BD615E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B8657325B37D7F00BD615E /* VideoPlayerView.swift */,
+				11B8657825B37D9300BD615E /* Home.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11B8658525B37F4000BD615E /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				1174659325B7C57400BC19B0 /* video15.mp4 */,
+				1174659225B7C57200BC19B0 /* video14.mp4 */,
+				1174658F25B7C56D00BC19B0 /* video11.mp4 */,
+				1174659125B7C57100BC19B0 /* video10.mp4 */,
+				1174659025B7C56F00BC19B0 /* video12.mp4 */,
+				1174658E25B7C56A00BC19B0 /* video13.mp4 */,
+				11B8658625B37F4000BD615E /* video6.mp4 */,
+				11B8658725B37F4000BD615E /* video7.mp4 */,
+				11B8658825B37F4000BD615E /* video5.mp4 */,
+				11B8658925B37F4000BD615E /* video4.mp4 */,
+				11B8658A25B37F4000BD615E /* video1.mp4 */,
+				11B8658B25B37F4000BD615E /* video3.mp4 */,
+				11B8658C25B37F4000BD615E /* video2.mp4 */,
+				11B8658D25B37F4000BD615E /* video9.mp4 */,
+				11B8658E25B37F4000BD615E /* video8.mp4 */,
+			);
+			name = Videos;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B8651A25B377E700BD615E /* SanpChat page */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B8654025B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat page" */;
+			buildPhases = (
+				11B8651725B377E700BD615E /* Sources */,
+				11B8651825B377E700BD615E /* Frameworks */,
+				11B8651925B377E700BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SanpChat page";
+			productName = "SanpChat page";
+			productReference = 11B8651B25B377E700BD615E /* SanpChat page.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B8652B25B377EB00BD615E /* SanpChat pageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B8654325B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat pageTests" */;
+			buildPhases = (
+				11B8652825B377EB00BD615E /* Sources */,
+				11B8652925B377EB00BD615E /* Frameworks */,
+				11B8652A25B377EB00BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B8652E25B377EB00BD615E /* PBXTargetDependency */,
+			);
+			name = "SanpChat pageTests";
+			productName = "SanpChat pageTests";
+			productReference = 11B8652C25B377EB00BD615E /* SanpChat pageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B8653625B377EB00BD615E /* SanpChat pageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B8654625B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat pageUITests" */;
+			buildPhases = (
+				11B8653325B377EB00BD615E /* Sources */,
+				11B8653425B377EB00BD615E /* Frameworks */,
+				11B8653525B377EB00BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B8653925B377EB00BD615E /* PBXTargetDependency */,
+			);
+			name = "SanpChat pageUITests";
+			productName = "SanpChat pageUITests";
+			productReference = 11B8653725B377EB00BD615E /* SanpChat pageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B8651325B377E700BD615E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					11B8651A25B377E700BD615E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					11B8652B25B377EB00BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B8651A25B377E700BD615E;
+					};
+					11B8653625B377EB00BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B8651A25B377E700BD615E;
+					};
+				};
+			};
+			buildConfigurationList = 11B8651625B377E700BD615E /* Build configuration list for PBXProject "SanpChat page" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B8651225B377E700BD615E;
+			productRefGroup = 11B8651C25B377E700BD615E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B8651A25B377E700BD615E /* SanpChat page */,
+				11B8652B25B377EB00BD615E /* SanpChat pageTests */,
+				11B8653625B377EB00BD615E /* SanpChat pageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B8651925B377E700BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B8659225B37F4000BD615E /* video4.mp4 in Resources */,
+				11B8655B25B37B2400BD615E /* video4.mp4 in Resources */,
+				1174659525B7C57400BC19B0 /* video11.mp4 in Resources */,
+				11B8659125B37F4000BD615E /* video5.mp4 in Resources */,
+				11B8655825B37B2400BD615E /* video5.mp4 in Resources */,
+				11B8659725B37F4000BD615E /* video8.mp4 in Resources */,
+				11B8659325B37F4000BD615E /* video1.mp4 in Resources */,
+				11B8657E25B37F0B00BD615E /* video9.mp4 in Resources */,
+				11B8659025B37F4000BD615E /* video7.mp4 in Resources */,
+				11B8652625B377EA00BD615E /* Preview Assets.xcassets in Resources */,
+				11B8659525B37F4000BD615E /* video2.mp4 in Resources */,
+				1174659625B7C57400BC19B0 /* video12.mp4 in Resources */,
+				11B8659625B37F4000BD615E /* video9.mp4 in Resources */,
+				1174659425B7C57400BC19B0 /* video13.mp4 in Resources */,
+				1174659725B7C57400BC19B0 /* video10.mp4 in Resources */,
+				11B8655625B37B2400BD615E /* video1.mp4 in Resources */,
+				11B8655925B37B2400BD615E /* video2.mp4 in Resources */,
+				11B8655725B37B2400BD615E /* video3.mp4 in Resources */,
+				11B8658F25B37F4000BD615E /* video6.mp4 in Resources */,
+				1174659925B7C57400BC19B0 /* video15.mp4 in Resources */,
+				11B8652325B377EA00BD615E /* Assets.xcassets in Resources */,
+				11B8659425B37F4000BD615E /* video3.mp4 in Resources */,
+				1174659825B7C57400BC19B0 /* video14.mp4 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8652A25B377EB00BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8653525B377EB00BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B8651725B377E700BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B8656A25B37D4D00BD615E /* VideoPlayerViewModel.swift in Sources */,
+				11B8656F25B37D6500BD615E /* Video.swift in Sources */,
+				11B8652125B377E700BD615E /* ContentView.swift in Sources */,
+				11B8651F25B377E700BD615E /* SanpChat_pageApp.swift in Sources */,
+				11B8657925B37D9300BD615E /* Home.swift in Sources */,
+				11B8657425B37D7F00BD615E /* VideoPlayerView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8652825B377EB00BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B8653125B377EB00BD615E /* SanpChat_pageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B8653325B377EB00BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B8653C25B377EB00BD615E /* SanpChat_pageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B8652E25B377EB00BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B8651A25B377E700BD615E /* SanpChat page */;
+			targetProxy = 11B8652D25B377EB00BD615E /* PBXContainerItemProxy */;
+		};
+		11B8653925B377EB00BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B8651A25B377E700BD615E /* SanpChat page */;
+			targetProxy = 11B8653825B377EB00BD615E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B8653E25B377EB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B8653F25B377EB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B8654125B377EB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SanpChat page/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SanpChat page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B8654225B377EB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SanpChat page/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SanpChat page/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-page";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B8654425B377EB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "SanpChat pageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-pageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanpChat page.app/SanpChat page";
+			};
+			name = Debug;
+		};
+		11B8654525B377EB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "SanpChat pageTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-pageTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SanpChat page.app/SanpChat page";
+			};
+			name = Release;
+		};
+		11B8654725B377EB00BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "SanpChat pageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-pageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SanpChat page";
+			};
+			name = Debug;
+		};
+		11B8654825B377EB00BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = "SanpChat pageUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.SanpChat-pageUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "SanpChat page";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B8651625B377E700BD615E /* Build configuration list for PBXProject "SanpChat page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8653E25B377EB00BD615E /* Debug */,
+				11B8653F25B377EB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B8654025B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat page" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8654125B377EB00BD615E /* Debug */,
+				11B8654225B377EB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B8654325B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat pageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8654425B377EB00BD615E /* Debug */,
+				11B8654525B377EB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B8654625B377EB00BD615E /* Build configuration list for PBXNativeTarget "SanpChat pageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B8654725B377EB00BD615E /* Debug */,
+				11B8654825B377EB00BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 11B8651325B377E700BD615E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_neflix_clone_app_neflix_clone_appUITests {
+  umbrella header "Pods-neflix_clone_app-neflix_clone_appUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

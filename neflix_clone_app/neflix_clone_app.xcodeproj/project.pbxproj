@@ -1,0 +1,810 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B67248B1B5FA903E6C9E30A /* Pods_neflix_clone_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0E112FF79C21511A76F5670 /* Pods_neflix_clone_app.framework */; };
+		105914521A9AAC9F951A38C7 /* Pods_neflix_clone_app_neflix_clone_appUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D1496B490EDAE6A01CFA4F54 /* Pods_neflix_clone_app_neflix_clone_appUITests.framework */; };
+		11B865A825B49D3300BD615E /* neflix_clone_appApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865A725B49D3300BD615E /* neflix_clone_appApp.swift */; };
+		11B865AA25B49D3300BD615E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865A925B49D3300BD615E /* ContentView.swift */; };
+		11B865AC25B49D3700BD615E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B865AB25B49D3700BD615E /* Assets.xcassets */; };
+		11B865AF25B49D3700BD615E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 11B865AE25B49D3700BD615E /* Preview Assets.xcassets */; };
+		11B865BA25B49D3700BD615E /* neflix_clone_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865B925B49D3700BD615E /* neflix_clone_appTests.swift */; };
+		11B865C525B49D3800BD615E /* neflix_clone_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865C425B49D3700BD615E /* neflix_clone_appUITests.swift */; };
+		11B865D625B49D6C00BD615E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865D525B49D6B00BD615E /* HomeView.swift */; };
+		11B865E225B4BBAC00BD615E /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865E125B4BBAC00BD615E /* Movie.swift */; };
+		11B865E925B4BBDA00BD615E /* TopMoviePreview.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865E825B4BBDA00BD615E /* TopMoviePreview.swift */; };
+		11B865EE25B4BC5800BD615E /* StandardHomeMovie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865ED25B4BC5800BD615E /* StandardHomeMovie.swift */; };
+		11B865F325B4BCAA00BD615E /* GlobalHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11B865F225B4BCAA00BD615E /* GlobalHelpers.swift */; };
+		11B865F925B4BD5700BD615E /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 11B865F825B4BD5700BD615E /* Kingfisher */; };
+		9D2C1B1F5A6EC7D84D42BE01 /* Pods_neflix_clone_appTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0BC0CF50B090A472CD7F8272 /* Pods_neflix_clone_appTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		11B865B625B49D3700BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B8659C25B49D3300BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B865A325B49D3300BD615E;
+			remoteInfo = neflix_clone_app;
+		};
+		11B865C125B49D3700BD615E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 11B8659C25B49D3300BD615E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 11B865A325B49D3300BD615E;
+			remoteInfo = neflix_clone_app;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BC0CF50B090A472CD7F8272 /* Pods_neflix_clone_appTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neflix_clone_appTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B865A425B49D3300BD615E /* neflix_clone_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = neflix_clone_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B865A725B49D3300BD615E /* neflix_clone_appApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neflix_clone_appApp.swift; sourceTree = "<group>"; };
+		11B865A925B49D3300BD615E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		11B865AB25B49D3700BD615E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		11B865AE25B49D3700BD615E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		11B865B025B49D3700BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B865B525B49D3700BD615E /* neflix_clone_appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neflix_clone_appTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B865B925B49D3700BD615E /* neflix_clone_appTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neflix_clone_appTests.swift; sourceTree = "<group>"; };
+		11B865BB25B49D3700BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B865C025B49D3700BD615E /* neflix_clone_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = neflix_clone_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		11B865C425B49D3700BD615E /* neflix_clone_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = neflix_clone_appUITests.swift; sourceTree = "<group>"; };
+		11B865C625B49D3800BD615E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		11B865D525B49D6B00BD615E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		11B865E125B4BBAC00BD615E /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		11B865E825B4BBDA00BD615E /* TopMoviePreview.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMoviePreview.swift; sourceTree = "<group>"; };
+		11B865ED25B4BC5800BD615E /* StandardHomeMovie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StandardHomeMovie.swift; sourceTree = "<group>"; };
+		11B865F225B4BCAA00BD615E /* GlobalHelpers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalHelpers.swift; sourceTree = "<group>"; };
+		2C0CAB14818FBC07CB89B804 /* Pods-neflix_clone_app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_app.debug.xcconfig"; path = "Target Support Files/Pods-neflix_clone_app/Pods-neflix_clone_app.debug.xcconfig"; sourceTree = "<group>"; };
+		3F2B59A1C4898B05EA429A69 /* Pods-neflix_clone_app-neflix_clone_appUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_app-neflix_clone_appUITests.release.xcconfig"; path = "Target Support Files/Pods-neflix_clone_app-neflix_clone_appUITests/Pods-neflix_clone_app-neflix_clone_appUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4CA5CAFDDE755B77C1784AEB /* Pods-neflix_clone_appTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_appTests.debug.xcconfig"; path = "Target Support Files/Pods-neflix_clone_appTests/Pods-neflix_clone_appTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7D5A1435DA3FB188273AA81A /* Pods-neflix_clone_appTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_appTests.release.xcconfig"; path = "Target Support Files/Pods-neflix_clone_appTests/Pods-neflix_clone_appTests.release.xcconfig"; sourceTree = "<group>"; };
+		AEB7927C1F016BF195687E60 /* Pods-neflix_clone_app-neflix_clone_appUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_app-neflix_clone_appUITests.debug.xcconfig"; path = "Target Support Files/Pods-neflix_clone_app-neflix_clone_appUITests/Pods-neflix_clone_app-neflix_clone_appUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C0E112FF79C21511A76F5670 /* Pods_neflix_clone_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neflix_clone_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1496B490EDAE6A01CFA4F54 /* Pods_neflix_clone_app_neflix_clone_appUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_neflix_clone_app_neflix_clone_appUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7710F7D7A17F5F0013678FD /* Pods-neflix_clone_app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-neflix_clone_app.release.xcconfig"; path = "Target Support Files/Pods-neflix_clone_app/Pods-neflix_clone_app.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		11B865A125B49D3300BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B865F925B4BD5700BD615E /* Kingfisher in Frameworks */,
+				0B67248B1B5FA903E6C9E30A /* Pods_neflix_clone_app.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865B225B49D3700BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D2C1B1F5A6EC7D84D42BE01 /* Pods_neflix_clone_appTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865BD25B49D3700BD615E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				105914521A9AAC9F951A38C7 /* Pods_neflix_clone_app_neflix_clone_appUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0865BA81B53172C5A8A13146 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C0CAB14818FBC07CB89B804 /* Pods-neflix_clone_app.debug.xcconfig */,
+				E7710F7D7A17F5F0013678FD /* Pods-neflix_clone_app.release.xcconfig */,
+				AEB7927C1F016BF195687E60 /* Pods-neflix_clone_app-neflix_clone_appUITests.debug.xcconfig */,
+				3F2B59A1C4898B05EA429A69 /* Pods-neflix_clone_app-neflix_clone_appUITests.release.xcconfig */,
+				4CA5CAFDDE755B77C1784AEB /* Pods-neflix_clone_appTests.debug.xcconfig */,
+				7D5A1435DA3FB188273AA81A /* Pods-neflix_clone_appTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		11B8659B25B49D3300BD615E = {
+			isa = PBXGroup;
+			children = (
+				11B865A625B49D3300BD615E /* neflix_clone_app */,
+				11B865B825B49D3700BD615E /* neflix_clone_appTests */,
+				11B865C325B49D3700BD615E /* neflix_clone_appUITests */,
+				11B865A525B49D3300BD615E /* Products */,
+				0865BA81B53172C5A8A13146 /* Pods */,
+				8D70A8971814EE2F66A534B6 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		11B865A525B49D3300BD615E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				11B865A425B49D3300BD615E /* neflix_clone_app.app */,
+				11B865B525B49D3700BD615E /* neflix_clone_appTests.xctest */,
+				11B865C025B49D3700BD615E /* neflix_clone_appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		11B865A625B49D3300BD615E /* neflix_clone_app */ = {
+			isa = PBXGroup;
+			children = (
+				11B865E725B4BBCD00BD615E /* HelperView */,
+				11B865E625B4BBB200BD615E /* Model */,
+				11B865DA25B49DAD00BD615E /* View */,
+				11B865A725B49D3300BD615E /* neflix_clone_appApp.swift */,
+				11B865A925B49D3300BD615E /* ContentView.swift */,
+				11B865F225B4BCAA00BD615E /* GlobalHelpers.swift */,
+				11B865AB25B49D3700BD615E /* Assets.xcassets */,
+				11B865B025B49D3700BD615E /* Info.plist */,
+				11B865AD25B49D3700BD615E /* Preview Content */,
+			);
+			path = neflix_clone_app;
+			sourceTree = "<group>";
+		};
+		11B865AD25B49D3700BD615E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				11B865AE25B49D3700BD615E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		11B865B825B49D3700BD615E /* neflix_clone_appTests */ = {
+			isa = PBXGroup;
+			children = (
+				11B865B925B49D3700BD615E /* neflix_clone_appTests.swift */,
+				11B865BB25B49D3700BD615E /* Info.plist */,
+			);
+			path = neflix_clone_appTests;
+			sourceTree = "<group>";
+		};
+		11B865C325B49D3700BD615E /* neflix_clone_appUITests */ = {
+			isa = PBXGroup;
+			children = (
+				11B865C425B49D3700BD615E /* neflix_clone_appUITests.swift */,
+				11B865C625B49D3800BD615E /* Info.plist */,
+			);
+			path = neflix_clone_appUITests;
+			sourceTree = "<group>";
+		};
+		11B865DA25B49DAD00BD615E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				11B865D525B49D6B00BD615E /* HomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		11B865E625B4BBB200BD615E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				11B865E125B4BBAC00BD615E /* Movie.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		11B865E725B4BBCD00BD615E /* HelperView */ = {
+			isa = PBXGroup;
+			children = (
+				11B865E825B4BBDA00BD615E /* TopMoviePreview.swift */,
+				11B865ED25B4BC5800BD615E /* StandardHomeMovie.swift */,
+			);
+			path = HelperView;
+			sourceTree = "<group>";
+		};
+		8D70A8971814EE2F66A534B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0E112FF79C21511A76F5670 /* Pods_neflix_clone_app.framework */,
+				D1496B490EDAE6A01CFA4F54 /* Pods_neflix_clone_app_neflix_clone_appUITests.framework */,
+				0BC0CF50B090A472CD7F8272 /* Pods_neflix_clone_appTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		11B865A325B49D3300BD615E /* neflix_clone_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B865C925B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_app" */;
+			buildPhases = (
+				1FE0890952CDCCBC74541EF8 /* [CP] Check Pods Manifest.lock */,
+				11B865A025B49D3300BD615E /* Sources */,
+				11B865A125B49D3300BD615E /* Frameworks */,
+				11B865A225B49D3300BD615E /* Resources */,
+				5E3442C4590DED2512BAAEF4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = neflix_clone_app;
+			packageProductDependencies = (
+				11B865F825B4BD5700BD615E /* Kingfisher */,
+			);
+			productName = neflix_clone_app;
+			productReference = 11B865A425B49D3300BD615E /* neflix_clone_app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		11B865B425B49D3700BD615E /* neflix_clone_appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B865CC25B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_appTests" */;
+			buildPhases = (
+				5DC8069BD6F39667BDCBA577 /* [CP] Check Pods Manifest.lock */,
+				11B865B125B49D3700BD615E /* Sources */,
+				11B865B225B49D3700BD615E /* Frameworks */,
+				11B865B325B49D3700BD615E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B865B725B49D3700BD615E /* PBXTargetDependency */,
+			);
+			name = neflix_clone_appTests;
+			productName = neflix_clone_appTests;
+			productReference = 11B865B525B49D3700BD615E /* neflix_clone_appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		11B865BF25B49D3700BD615E /* neflix_clone_appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 11B865CF25B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_appUITests" */;
+			buildPhases = (
+				98C106397AE47903A81F4A5B /* [CP] Check Pods Manifest.lock */,
+				11B865BC25B49D3700BD615E /* Sources */,
+				11B865BD25B49D3700BD615E /* Frameworks */,
+				11B865BE25B49D3700BD615E /* Resources */,
+				54ABC0F95A6ED6F7465A9E10 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				11B865C225B49D3700BD615E /* PBXTargetDependency */,
+			);
+			name = neflix_clone_appUITests;
+			productName = neflix_clone_appUITests;
+			productReference = 11B865C025B49D3700BD615E /* neflix_clone_appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		11B8659C25B49D3300BD615E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1230;
+				LastUpgradeCheck = 1230;
+				TargetAttributes = {
+					11B865A325B49D3300BD615E = {
+						CreatedOnToolsVersion = 12.3;
+					};
+					11B865B425B49D3700BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B865A325B49D3300BD615E;
+					};
+					11B865BF25B49D3700BD615E = {
+						CreatedOnToolsVersion = 12.3;
+						TestTargetID = 11B865A325B49D3300BD615E;
+					};
+				};
+			};
+			buildConfigurationList = 11B8659F25B49D3300BD615E /* Build configuration list for PBXProject "neflix_clone_app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 11B8659B25B49D3300BD615E;
+			packageReferences = (
+				11B865F725B4BD5700BD615E /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 11B865A525B49D3300BD615E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				11B865A325B49D3300BD615E /* neflix_clone_app */,
+				11B865B425B49D3700BD615E /* neflix_clone_appTests */,
+				11B865BF25B49D3700BD615E /* neflix_clone_appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		11B865A225B49D3300BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B865AF25B49D3700BD615E /* Preview Assets.xcassets in Resources */,
+				11B865AC25B49D3700BD615E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865B325B49D3700BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865BE25B49D3700BD615E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE0890952CDCCBC74541EF8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neflix_clone_app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		54ABC0F95A6ED6F7465A9E10 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app-neflix_clone_appUITests/Pods-neflix_clone_app-neflix_clone_appUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app-neflix_clone_appUITests/Pods-neflix_clone_app-neflix_clone_appUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app-neflix_clone_appUITests/Pods-neflix_clone_app-neflix_clone_appUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5DC8069BD6F39667BDCBA577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neflix_clone_appTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E3442C4590DED2512BAAEF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app/Pods-neflix_clone_app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app/Pods-neflix_clone_app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-neflix_clone_app/Pods-neflix_clone_app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		98C106397AE47903A81F4A5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-neflix_clone_app-neflix_clone_appUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		11B865A025B49D3300BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B865D625B49D6C00BD615E /* HomeView.swift in Sources */,
+				11B865F325B4BCAA00BD615E /* GlobalHelpers.swift in Sources */,
+				11B865AA25B49D3300BD615E /* ContentView.swift in Sources */,
+				11B865E225B4BBAC00BD615E /* Movie.swift in Sources */,
+				11B865A825B49D3300BD615E /* neflix_clone_appApp.swift in Sources */,
+				11B865EE25B4BC5800BD615E /* StandardHomeMovie.swift in Sources */,
+				11B865E925B4BBDA00BD615E /* TopMoviePreview.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865B125B49D3700BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B865BA25B49D3700BD615E /* neflix_clone_appTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11B865BC25B49D3700BD615E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11B865C525B49D3800BD615E /* neflix_clone_appUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		11B865B725B49D3700BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B865A325B49D3300BD615E /* neflix_clone_app */;
+			targetProxy = 11B865B625B49D3700BD615E /* PBXContainerItemProxy */;
+		};
+		11B865C225B49D3700BD615E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 11B865A325B49D3300BD615E /* neflix_clone_app */;
+			targetProxy = 11B865C125B49D3700BD615E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		11B865C725B49D3800BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		11B865C825B49D3800BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		11B865CA25B49D3800BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C0CAB14818FBC07CB89B804 /* Pods-neflix_clone_app.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"neflix_clone_app/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = neflix_clone_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		11B865CB25B49D3800BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7710F7D7A17F5F0013678FD /* Pods-neflix_clone_app.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"neflix_clone_app/Preview Content\"";
+				DEVELOPMENT_TEAM = CSE9343A58;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = neflix_clone_app/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		11B865CD25B49D3800BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA5CAFDDE755B77C1784AEB /* Pods-neflix_clone_appTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = neflix_clone_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neflix_clone_app.app/neflix_clone_app";
+			};
+			name = Debug;
+		};
+		11B865CE25B49D3800BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D5A1435DA3FB188273AA81A /* Pods-neflix_clone_appTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = neflix_clone_appTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/neflix_clone_app.app/neflix_clone_app";
+			};
+			name = Release;
+		};
+		11B865D025B49D3800BD615E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEB7927C1F016BF195687E60 /* Pods-neflix_clone_app-neflix_clone_appUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = neflix_clone_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neflix_clone_app;
+			};
+			name = Debug;
+		};
+		11B865D125B49D3800BD615E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F2B59A1C4898B05EA429A69 /* Pods-neflix_clone_app-neflix_clone_appUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSE9343A58;
+				INFOPLIST_FILE = neflix_clone_appUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "frontyard.neflix-clone-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = neflix_clone_app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		11B8659F25B49D3300BD615E /* Build configuration list for PBXProject "neflix_clone_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B865C725B49D3800BD615E /* Debug */,
+				11B865C825B49D3800BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B865C925B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B865CA25B49D3800BD615E /* Debug */,
+				11B865CB25B49D3800BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B865CC25B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B865CD25B49D3800BD615E /* Debug */,
+				11B865CE25B49D3800BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		11B865CF25B49D3800BD615E /* Build configuration list for PBXNativeTarget "neflix_clone_appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				11B865D025B49D3800BD615E /* Debug */,
+				11B865D125B49D3800BD615E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		11B865F725B4BD5700BD615E /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher/";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		11B865F825B4BD5700BD615E /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 11B865F725B4BD5700BD615E /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 11B8659C25B49D3300BD615E /* Project object */;
+}
